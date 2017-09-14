@@ -1,0 +1,96 @@
+<div class="col-xs-12 col-sm-4">
+  <aside class="footer__social visible-sm-inline visible-md-inline visible-lg-inline" id="social-links-desktop">
+    <!-- Render: Social Links -->
+
+    <!-- Render: twitter links -->
+    <ul>
+      <li>
+        <a class="twitter" href="#" id="external-link__twitter" target="_jpmc"><i class="icon-twitter-stroke"></i></a>
+        <ul>
+          <li>
+            <a href="https://www.twitter.com/jpmorgan" target="blank">J.P. Morgan</a>
+            <hr class="footer-social-divider">
+          </li>
+          <li>
+            <a href="https://www.twitter.com/jpmorganchase" target="blank">Chase</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <!-- /Render: twitter links -->
+
+    <!-- Render: facebook links -->
+    <ul>
+      <li>
+        <a class="facebook" href="#" id="external-link__facebook" target="_jpmc"><i class="icon-facebook-stroke"></i></a>
+        <ul>
+          <li>
+            <a href="https://www.facebook.com/jpmorganchase" target="blank">JPMorgan &amp; Chase</a>
+            <hr class="footer-social-divider">
+          </li>
+          <li>
+            <a href="https://www.facebook.com/chase" target="blank">Chase</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <!-- /Render: facebook links -->
+
+    <!-- Render: linkedin links -->
+    <ul>
+      <li>
+        <a class="linkedin" href="#" id="external-link__linkedin" target="_jpmc"><i class="icon-linkedin-stroke"></i></a>
+        <ul>
+          <li>
+            <a href="https://www.linkedin.com/company/j-p-morgan" target="blank">J.P. Morgan</a>
+            <hr class="footer-social-divider">
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/company/jpmorgan-chase" target="blank">JPMorgan &amp; Chase</a>
+            <hr class="footer-social-divider">
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/company/chase" target="blank">Chase</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <!-- /Render: linkedin links -->
+
+    <!-- Render: youtube links -->
+    <ul>
+      <li>
+        <a class="youtube" href="#" id="external-link__youtube" target="_jpmc"><i class="icon-youtube-stroke"></i></a>
+        <ul>
+          <li>
+            <a href="https://www.youtube.com/user/jpmorgan" target="blank">J.P. Morgan</a>
+            <hr class="footer-social-divider">
+          </li>
+          <li>
+            <a href="https://www.youtube.com/user/welcometochase" target="blank">Chase</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <!-- /Render: youtube links -->
+
+    <!-- Render: instagram links -->
+    <ul>
+      <li>
+        <a class="instagram" href="#" id="external-link__instagram" target="_jpmc"><i class="icon-instagram-stroke"></i></a>
+        <ul>
+          <li>
+            <a href="https://instagram.com/jpmorgan" target="blank">J.P. Morgan</a>
+            <hr class="footer-social-divider">
+          </li>
+          <li>
+            <a href="https://instagram.com/chase" target="blank">Chase</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <!-- /Render: instagram links -->
+
+    <!-- /Render: Social Links -->
+  </aside>
+</div>
