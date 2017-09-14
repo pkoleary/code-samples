@@ -1,0 +1,61 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-8 col-sm-offset-2 colnopadding-small-up no-accordion-padding-top">
+      <div id="accordion__component" data-accordion="" class="module accordion">
+        <div id="accordion-intro" class="header-font-family text-center text-xs-left">
+          <h2 id="intro__title" class="accordion__tittle">Employee benefits</h2>
+          <!-- <h3 id="intro__title" class="gamma padding-reset-bottom-xs-small"></h3> -->
+          <p id="intro__desc" class="delta accordion__tittle--sub"></p>
+        </div>
+        <div id="accordion-wrapper-container" class="accordion-wrapper">
+          <div id="accordion-block" class="accordion-section">
+            <a id="data-content__a" class="accordion-section-title" href="#" data-content-trigger="1320541106642">Health Care and Insurance Plans</a>
+            <div id="data-content__div" data-content="1320541106642" class="accordion-section-content">
+              <div class="accordion-section-content-wrapper">
+                <p id="accordion-block-summary">Our employees are entitled to a variety of healthcare insurance plans, ranging from medical, dental and vision;
+                  to life and accident; disability; before-tax spending accounts; and group legal services.</p>
+              </div>
+            </div>
+          </div>
+          <div id="accordion-block" class="accordion-section">
+            <a id="data-content__a" class="accordion-section-title" href="#" data-content-trigger="1320541106763">Retirement Savings Programs</a>
+            <div id="data-content__div" data-content="1320541106763" class="accordion-section-content">
+              <div class="accordion-section-content-wrapper">
+                <p id="accordion-block-summary">Depending on individual circumstances, our employees benefit from our programs such as 401(k) savings plan,
+                  retirement plan and employee stock purchase scheme.</p>
+              </div>
+            </div>
+          </div>
+          <div id="accordion-block" class="accordion-section">
+            <a id="data-content__a" class="accordion-section-title" href="#" data-content-trigger="1320541107633">Wellness Programs</a>
+            <div id="data-content__div" data-content="1320541107633" class="accordion-section-content">
+              <div class="accordion-section-content-wrapper">
+                <p id="accordion-block-summary">Our Wellness team arranges wellness screenings and assessments, health coaches, counselling and guidance
+                  services for our employees regularly.</p>
+              </div>
+            </div>
+          </div>
+          <div id="accordion-block" class="accordion-section">
+            <a id="data-content__a" class="accordion-section-title" href="#" data-content-trigger="1320541107709">Employee Programs</a>
+            <div id="data-content__div" data-content="1320541107709" class="accordion-section-content">
+              <div class="accordion-section-content-wrapper">
+                <p id="accordion-block-summary">Our employees are entitled to a variety of programs, ranging from maternity and paternity leave, back-up
+                  child care services, flexible work options, matching gifts, to discounts on banking services, electronics,
+                  arts and entertainment, fitness programs, travel and more.</p>
+              </div>
+            </div>
+          </div>
+          <div id="accordion-block" class="accordion-section">
+            <a id="data-content__a" class="accordion-section-title" href="#" data-content-trigger="1320541107879">Family Care</a>
+            <div id="data-content__div" data-content="1320541107879" class="accordion-section-content">
+              <div class="accordion-section-content-wrapper">
+                <p id="accordion-block-summary">We know how important your family’s health is to you so we offer a variety of healthcare packages that cover
+                  you and your partner, your children and your parents.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
