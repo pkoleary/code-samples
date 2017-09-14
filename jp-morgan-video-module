@@ -1,0 +1,38 @@
+<section id="video-hero" class="module no-top-module-padding no-bottom-module-padding">
+
+  <!-- MODULE M4 VIDEO HERO -->
+  <div class="container colnorightpadding-xs colnoleftpadding-xs" data-ng-show="usertypeSelected === 'student-apply' || usertypeSelected === 'student-explore'">
+    <div class="row">
+      <div class="item">
+        <a class="ng-isolate-scope" data-carousel-go-to-slide="1" data-content-elem="#video-hero" data-push-down-trigger="" data-url="/overlay/1320540508802">
+          <figure class="has-img-hover img-hover-dim col-centered img-responsive" style="margin-right:0 !important">
+            <div id="video-text-overlay-container">
+              <img class="videohero-play-button-overlay" src="/careers/images/video-play-button-overlay.png" alt="Play Video">
+              <h3 class="videohero-text-overlay"> </h3>
+              <h4 class="videohero-text-overlay"> </h4>
+            </div>
+            <img class="img-responsive" src="/careers/1320712111800/922/889/HPHero.jpg" alt="">
+          </figure>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container colnorightpadding-xs colnoleftpadding-xs ng-hide" data-ng-show="usertypeSelected === 'experienced-professional'">
+    <div class="row">
+      <div class="item">
+        <a class="ng-isolate-scope" data-carousel-go-to-slide="1" data-content-elem="#video-hero" data-push-down-trigger="" data-url="/overlay/1320540508802">
+          <figure class="has-img-hover img-hover-dim col-centered img-responsive" style="margin-right:0 !important">
+            <div id="video-text-overlay-container">
+              <img class="videohero-play-button-overlay" src="/careers/images/video-play-button-overlay.png" alt="Play Video">
+              <h3 class="videohero-text-overlay"> </h3>
+              <h4 class="videohero-text-overlay"> </h4>
+            </div>
+            <img class="img-responsive" src="/careers/1320712111800/922/889/HPHero.jpg" alt="">
+          </figure>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="push-down-wrapper" data-dynamic-html="$root.pushDownWrapperContent"></div>
+</section>
