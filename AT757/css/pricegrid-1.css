@@ -1,0 +1,309 @@
+/*see details */ 
+
+
+.prod-details-old h4,h5 {
+  margin:2px 0 3px 3px;
+  padding:0;
+}
+
+.prod-details-old h5 {
+  text-align: center;
+  padding:4px;
+}
+
+#closeBox {
+  position: absolute;
+  top:3px;
+  right:3px;
+  color:#000;
+  font:bold 9px Arial;
+  border:1px solid #000;
+  padding:1px 3px;
+  margin:0;
+  line-height: 9px;
+  font-weight: normal;
+  cursor:pointer;
+  -moz-box-shadow:    inset 0 0 2px #a9a9a9;
+  -webkit-box-shadow: inset 0 0 2px #a9a9a9;
+  box-shadow:         inset 0 0 2px #a9a9a9;
+}
+
+#prod-details h4 {
+  text-transform: uppercase;
+  font:bold .8em Verdana;
+  margin-left:24px;
+  margin-top:8px;
+}
+
+
+.prod-details-old {
+  border:1px solid #000;
+  padding:2px 0 0 4px;
+  position:absolute;
+  width:480px;
+  background: #fff;
+  z-index:2444;
+  left:25px;
+  top:100px;
+  -moz-box-shadow:    4px 4px 6px 0 #a9a9a9;
+  -webkit-box-shadow: 4px 4px 6px 0 #a9a9a9;
+  box-shadow:         4px 4px 6px 0 #a9a9a9;
+
+}
+
+div#icon-holder {
+  float:left;
+  width:15%;
+  padding:0;
+}
+
+
+.prod-details-old img {
+  padding-right:0;
+  padding-bottom:8px;
+  margin:20px 0 0 1em;
+}
+
+ul#prod-deets {
+  float:left;
+  width:62%;
+  list-style-type:square;
+  padding-right:5px;
+  padding-left:.7em;
+  margin-left:.0em;
+
+}
+
+ul#prod-deets li {
+  color:#333;
+  font-size:.8em;
+  line-height: 1.3;
+}
+
+
+
+/* end of see details */ 
+
+#offer-trial {
+	position: relative;
+	font-family: Arial;
+}
+
+#offer-trial h2 {
+    font: 1em Arial;
+    color: rgb(51, 51, 51);
+}
+
+h3#first4 {
+	margin-right:10%;
+	margin-bottom:5px;
+	text-align:right;
+	width:90%;
+	text-transform: uppercase;
+	font:bold .8em Arial;
+}
+
+#choose-prompt {
+	font: bold .7em 'Georgia';
+	color:#333333;
+}
+
+table#prompts {
+	margin-bottom:7px;
+	margin-top:0px;
+}
+
+#regular-title {
+	text-align: right;
+	padding-right:1%;
+	text-transform: uppercase;
+	font:bold .64em Arial;
+	color:#666;
+}
+
+#sale-title {
+	color:#F87400;
+	font-weight: bold;
+	text-align: right;
+	text-transform: uppercase;
+	font:bold .64em Arial;
+}
+
+.price-reg {
+	font-family:Arial;
+}
+
+.price-reg h3.dollarval {
+	
+	color:#666;
+  font-weight: normal;
+
+}
+
+.price-sale {
+	
+	color:#F87400;
+	font:1.2em Arial;
+}
+
+table#tbl-bundles {
+	border-collapse: collapse;
+}
+
+table tr.data {
+	border-top:1px solid #ccc;
+}
+
+tr.data.activer {
+  background:#D7E0E7;
+}
+
+tr.data td {
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+td.radioContainer {
+	padding-top:8px !important;
+	padding-left:2px !important;
+}
+
+tr.data td p {
+	margin-bottom:2px;
+	margin-top:3px;
+  font-family:Arial;
+  font-size:.75em;
+  width:80%;
+}
+
+
+td.summary h4 {
+	text-transform:uppercase;
+	font:bold .77em Arial;
+}
+
+.summary img {
+  display:none;
+ }
+
+.link-deets {
+  cursor:pointer;
+  text-decoration: underline;
+  display:block;
+  font-family:Arial;
+  font-size:.8em;
+}
+
+.link-deets-mo {
+  cursor:pointer;
+  text-decoration: underline;
+  display:none;
+}
+  div.inline-deets {
+	display:none;
+}
+/* 'mo flow ' */ 
+@media only screen and (max-width:640px) {
+
+.mo {
+	display:block;
+}
+
+#bundle-selection {
+	margin-top:3px;
+}
+
+#prompts-head,#first4 {
+	display:none;
+}
+
+.price-sale {
+	display:none;
+}
+
+  .radioContainer {
+    display:none;
+  }
+
+  td.price-reg {
+  	width:25%;
+  	text-align:right;
+  }
+
+  .price-reg h3 {
+  	font-size:.8em;
+  	padding-top:3px;
+  }
+
+  h3.dollarval {
+  	font-size:1.2em;
+  }
+
+  h3.mo.money {
+  	font-size:1.2em;
+  	color: rgb(255, 102, 0);
+  	font-weight: normal;
+  }
+
+  h3.mo.saler {
+  	color: rgb(255, 102, 0);
+    text-transform: uppercase;
+  }
+
+  h3.mo.reg {
+    color:#666;
+    margin-top:4px;
+    text-transform: uppercase;
+  }
+
+  #btn_continue {
+    display:none;
+  }
+
+  td.summary {
+  	width:70%;
+
+  }
+
+  td.summary h4 span {
+  	display:block;
+  }
+
+  .summary img {
+     display:block;
+     height: 70px;
+   }
+
+   td.summary h4 {
+   	font-size:.88em;
+   	  	padding-top:4px;
+   }
+
+ .summary p.summary-text {
+ 	display:none;
+ }
+
+  .btn_ordereach {
+  	display:block;
+  }
+
+  .link-deets {
+  	display:none;
+  }
+
+  a.link-deets-mo {
+  	display:block;
+  	color: rgb(0, 68, 125) !important;
+  	font-weight:800;
+  	font-size:.87em;
+    margin-top:15px;
+
+  }
+
+  .inline-deets.show-inline {
+  	display:block;
+  }
+
+}
+/* end mo flow */ 
+
